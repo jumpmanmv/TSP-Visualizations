@@ -23,6 +23,3 @@ void DurstenfeldShuffle(LCG *lcg, int arrayEls, int array[]);
 void randomPermutationFrom0toN(LCG *lcg, int N,int array[]);
 
 #endif
-
-	
-
