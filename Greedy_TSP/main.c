@@ -57,7 +57,7 @@ int main(int argc, char *argv[]){
 			{
 				quit = 1;
 			}
-			else if (e.key.keysym.sym == SDLK_ESCAPE)
+			else if (e.type == SDL_KEYDOWN && e.key.keysym.sym == SDLK_ESCAPE)
 			{
 				quit = 1;
 			}

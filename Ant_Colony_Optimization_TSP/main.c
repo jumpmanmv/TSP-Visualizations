@@ -102,12 +102,10 @@ int main(int argc, char* argv[]){
 					if (e.type == SDL_QUIT)
 					{
 						quit = 1;
-						break;
 					}
-					else if (e.key.keysym.sym == SDLK_ESCAPE)
+					else if (e.type == SDL_KEYDOWN && e.key.keysym.sym == SDLK_ESCAPE)
 					{
 						quit = 1;
-						break;
 					}
 				}
 				iteration++;
