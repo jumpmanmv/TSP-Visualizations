@@ -1,5 +1,8 @@
 # TSP-Visualizations
- Visualizations of different algorithms trying to solve the [travelling salesman problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem).
+ Visualizations of different algorithms trying to solve the [travelling salesman problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem). We have included visualizations for ACO (Ant Colony Optimization), Greedy, and Random Interchange algorithms. 
+
+## Screenshots
+<img src="images/Greedy_screenshot.png" width = "400"> <img src="images/Random_Interchange_screenshot.png" width = "400">
 
 
 ## Limitations
